@@ -43,11 +43,14 @@ const Header = () => {
                 <div className="logo navbar-brand">
                 <a href="/" title="Criterian"><img src={logo} alt="inicio"/></a>
               </div>
-              <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <button className="navbar-toggler shadow-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse " id="navbarNavDropdown" >
                 <ul className="navbar-nav" >
+                <li className="nav-item">
+                <a href="/" title="Criterian" id="logo-index"><img src={logo} alt="inicio"/></a><span className="x">X</span>
+                </li>
                   <li className="nav-item">
                     <NavLink className="nav-link " aria-current="page" to="/">{t('inicio')}</NavLink>
                   </li>

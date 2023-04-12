@@ -5,6 +5,12 @@ header{
   font-family: SourceSansPro, sans-serif;
 
 }
+.x{
+  display: none;
+}
+#logo-index img{
+display: none;
+}
 .dropdown-menu li{
 border-radius: 5px;
 background-color: #eaeaea;
@@ -22,11 +28,13 @@ background-color: inherit;
   width: 45%;
 }
 .logo{
+  text-align: left;
 padding-top: 20px;
 padding-bottom: 20px;
 padding-left: 40px;
   max-width:40vw;
 }
+
 .navbar-toggler{
   border: none;
 }
@@ -58,7 +66,7 @@ font-weight: 600;
 width: 140%;
 }
 /*small devices*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 990px) {
 .logo img{
   width: 250px;
 }
@@ -66,15 +74,25 @@ width: 140%;
 padding: 10px;
 }
 #navbarNavDropdown{
+  padding: 20px;
+  text-align: left;
 position: fixed;
 top: 0;
 left: 0;
 z-index: 99;
-width: 280px;
+width: 75%;
 height: 100%;
 background-color: #ddd;
 overflow: auto;
 
+}
+.x{
+  display: block;
+  max-width: 10px;
+}
+#logo-index img{
+width: 65%;
+display: inline-block;
 }
 
 .dropdown-menu{
@@ -82,7 +100,10 @@ width: 200px;
 }
 #contacto{
 padding: 0;
-font-size: 20px;
+font-size: 13px;
+text-decoration: none;
+font-weight: 600;
+font-weight: 25;
 }
 .idiomas img{
 width: 12%;
@@ -90,17 +111,17 @@ width: 12%;
 }
 /*large devices*/
 @media only screen and (min-width: 1440px) {
-html, body {
-margin:auto!important;
-width:1440px!important;
-height:1131px!important;
-}
+  html, body {
+  margin:auto!important;
+  width:1440px!important;
+  height:1131px!important;
+  }
 }
 @font-face {
 font-family: 'SourceSansPro';
 font-style: normal;
 font-weight: 400;
 font-display: swap;
-/* src: url(fonts/source-sans-pro.woff2) format('woff2'); */
+src: url(../../../assets/fonts/source-sans-pro.woff2) format('woff2'); 
 unicode-range: U+1F00-1FFF;
 }
