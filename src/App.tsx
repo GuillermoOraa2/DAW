@@ -10,7 +10,6 @@ import LaEmpresa from './components/views/empresa/laEmpresa.tsx';
 import Contacto from './components/views/contacto/contacto.tsx';
 import Exitos from './components/views/casosExito/casosExito.tsx';
 
-
 function App() {
   return (
     <div className="App">
