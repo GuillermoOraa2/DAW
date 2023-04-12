@@ -1,0 +1,144 @@
+header {
+    font-family: source-sans-pro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 50px;
+    background: #eaeaea;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 70px;
+    margin-right: 10px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+  }
+  
+  ul {
+      
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  li {
+    margin-left: 30px;
+  }
+  
+  li a {
+    color: #0d4497;
+    text-decoration: none;
+    font-size: 13.5px;
+    transition: color 0.2s ease-in-out;
+  }
+  *{
+      font-family: SourceSansPro, sans-serif;
+  
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    display: none;
+  }
+  
+  .dropdown:hover ul {
+    display: block;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  
+  .dropdown ul li {
+      background-color: #eaeaea;
+      width: 12vw;
+      text-align: center;
+       margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+  
+  }
+  .dropdown ul li:nth-child(2){
+  margin-top: 5px;
+  } 
+  
+  
+  .dropdown ul li a {
+    color: #0d4497;
+    font-size: 14px;
+  }
+  @font-face {
+      font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(fonts/source-sans-pro.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+  #contacto{
+      font-size: 1.6vw;
+      text-decoration: underline;
+      font-weight: 600;
+  }
+  .idiomas{
+      margin-left: 20px;
+  }
+  .idiomas img{
+      width: 20px;
+      margin-right: 10px;
+  }
+  /*Responsive part of the site*/
+  @media only screen and (max-width: 600px) {
+              header {
+                  flex-direction: column;
+                  height: auto;
+              }
+              
+              .logo {
+                  margin-bottom: 20px;
+              }
+  
+              nav {
+                  padding: 0;
+              }
+  
+              ul {
+                  flex-direction: column;
+              }
+  }
+  
+  @media only screen and (min-width: 600px) {
+  
+  }
+  
+  @media only screen and (min-width: 768px) {
+      
+  }
+  
+  @media only screen and (min-width: 1440px) {
+  html, body {
+  margin:auto!important;
+  width:1440px!important;
+  height:1131px!important;
+  text-align:center!important;	
+  }
+  }
