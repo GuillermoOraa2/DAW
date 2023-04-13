@@ -1,12 +1,20 @@
-import React from 'react';
+import Caso from './caso'
+import {datosArbor,datosRFHE,datosEntrena,datosSavso,datosGaia,datosPella,datosAxisPharma} from './casosExito.ts';
+const CasosExito = () => {
+  
+  
+  return (
+      <div className='container' id='main'>
+        <Caso data={datosArbor}/> 
+        <Caso data={datosRFHE}/>
+        <Caso data={datosEntrena}/>
+        <Caso data={datosSavso}/>
+        <Caso data={datosGaia}/>
+        <Caso data={datosPella}/>
+        <Caso data={datosAxisPharma}/> 
+      </div>
 
-class casosExito extends React.Component {
-    render() {
-      return (
-        <div>
-            <h2>PAGINA DE CASOS DE EXITO</h2>
-        </div>
       );
-    }
+    
 }        
-export default casosExito;
+export default CasosExito;
