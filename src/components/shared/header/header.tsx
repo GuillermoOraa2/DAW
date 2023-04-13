@@ -13,7 +13,7 @@ const Header = () => {
     }
 
     return (
-        <header>
+        <header className="sticky-top">
             {/* <div className="logo">
                 <a href="/" title="Criterian"><img width="1024" height="217" className="site-logo" src={logo} alt="Criterian"/></a>
             </div>

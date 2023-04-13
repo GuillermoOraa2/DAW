@@ -1,14 +1,15 @@
-import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 import './empresa.css';
 
-class laEmpresa extends React.Component {
-    render() {
+const LaEmpresa = () => {
+      const { t } = useTranslation();
+
       return (
-        <div className='container' id='main'>
-            <div className='container text-center'>
+        <div className='container cont-emp' id='main'>
+            <div className='container text-center cont-emp'>
               <h4>Filosofía</h4>
-              <p className='parr-1'>Creemos en la adaptación de procesos de producción definidos por otras disciplinas de la ingeniería porque aportan a nuestros desarrollos las tres cualidades por las que se miden los productos del sector informático; fiabilidad, usabilidad y eficiencia.<br/>
-              El nombre de la compañía representa nuestra vocación de aplicar el mejor criterio a nuestro trabajo. Sentirnos orgullosos de nuestra labor por la satisfacción que proporciona a quienes utilizan nuestras soluciones es el mayor estímulo.   </p>
+              <p className='parr-1'>{t('descripcionEmpresa')}</p>
               <div>
               
               </div>
@@ -23,7 +24,7 @@ class laEmpresa extends React.Component {
 
                 <div className="carousel-inner h-200">
 
-                  <div className="carousel-item active ">
+                  <div className="carousel-item active emp-item">
 
                     <div className="text-center">
                       <h5 className="hero-headline dark text-center">Equipo</h5>
@@ -34,14 +35,14 @@ class laEmpresa extends React.Component {
 
                   </div> 
 
-                  <div className="carousel-item " >
+                  <div className="carousel-item emp-item" >
                     <div className="text-center">
                       <h5 className="hero-headline white text-center">Criterian</h5>
                       <p className="hero-subhead dark text-center">Criterian: Procesos de calidad en la industria del software</p>
                     </div>
                   </div>
 
-                  <div className="carousel-item ">
+                  <div className="carousel-item emp-item">
                     <div className="text-center ">
                       <h5 className="hero-headline dark text-center">Auditoría Tecnológica</h5>
                       <p className="hero-subhead dark text-center aud">Hoy en día la tecnología juega un
@@ -70,6 +71,6 @@ class laEmpresa extends React.Component {
         
         
       );
-    }
+    
 }        
-export default laEmpresa;
+export default LaEmpresa;

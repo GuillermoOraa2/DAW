@@ -1,0 +1,80 @@
+#carouselinicio{
+    margin-bottom: 3vh;
+}
+#carouselinicio .carousel-inner .carousel-item img{
+    height: 60vh;
+}
+.inicio-caption{
+    text-align: left;
+    background-color: rgba(59, 180, 250, 0.5);
+    left: 0%;
+    right: auto;
+    top: 40%;
+    padding: 20px;
+    max-width: 40%;
+    height: 25vh;
+}
+.inicio-caption h1{
+    font-weight: 800;
+    font-size: 2.2vw;
+}
+.presentacion-inicio p{
+margin-top: 2vh;
+ font-size: 20px;
+}
+.presentacion-inicio h3{
+    font-weight: 600;
+}
+.br-inicio{
+    display: block;
+   margin: 10px 0;
+   line-height:22px;
+}
+*{
+    font-family:'Source Sans Pro', sans-serif;
+}
+.inicio-control{
+    opacity: 0;
+}
+.inicio-control:hover{
+    opacity: 0;
+}
+.inicio-control:all{
+    opacity: 0;
+}
+/*large devices*/
+@media only screen and (min-width: 1440px) {
+    html, body {
+    margin:auto!important;
+    width:1440px!important;
+    height:1131px!important;
+    }
+  }
+/*small devices*/
+@media only screen and (max-width: 768px) {
+.inicio-caption p{
+    font-size: 85%;
+}
+.inicio-caption h1{
+    font-size: 120%;
+}
+.inicio-caption{
+    max-width: 60%;
+}
+.presentacion-inicio p{
+    font-size: 100%;
+}
+.presentacion-inicio img{
+    margin-left: 40px;
+}
+
+}
+/*mobile devices*/
+@media only screen and (max-width: 600px){
+    .inicio-caption p{
+        font-size: 60%;
+    }
+    .presentacion-inicio img{
+        margin-left: 0;
+    }
+}

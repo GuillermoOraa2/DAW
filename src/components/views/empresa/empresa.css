@@ -5,11 +5,11 @@
     font-size: 1.3vw;
     color: #59565a;
 }
-.container{
+.cont-emp{
     margin-top: 3vw;
     max-width: 92%;
 }
-.container h4{
+.cont-emp h4{
     font-weight: bold;
 }
 #main{
@@ -25,7 +25,7 @@
     src: url(../../../assets/fonts/source-sans-pro.woff2) format('woff2'); 
     unicode-range: U+1F00-1FFF;
     }
-.carousel-item{
+.emp-item{
     background-image: url('../../../assets/images/empresa/slide.png');
     background-repeat: no-repeat;
     background-size: cover; 
@@ -35,18 +35,18 @@
     max-width: 90%;
     margin-left: 5%;
 }
-.carousel-item:nth-child(n+2){
+.emp-item:nth-child(n+2){
     color: #063f9b;
 }
 
-.carousel-item h5{
+.emp-item h5{
     color: black;
 }
-.carousel-item p{
+.emp-item p{
     font-weight: 500;
     font-size: 1.4vw;
 }
-.carousel-item:last-child{
+.emp-item:last-child{
     padding-left: 120px;
     padding-right: 120px;
 }
@@ -67,21 +67,21 @@
   }
 /*small devices*/
 @media only screen and (max-width: 768px) {
-    .container{
+    .cont-emp{
         margin-top: 5vh;}
     .parr-1{
         padding: 0;
         font-size: 5vw;
     }
-    .carousel-item h5{
+    .emp-item h5{
         text-align: center;
         font-size: 5vw;
     }
-    .carousel-item p{
+    .emp-item p{
         font-weight: 500;
         font-size: 5vw;
     }
-    .carousel-item:last-child{
+    .emp-item:last-child{
         padding-left: 40px;
         padding-right: 40px;
     }
