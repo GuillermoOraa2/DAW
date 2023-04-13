@@ -29,8 +29,11 @@ height: 30px;
 padding: 0;
 }
 .dropdown-menu li a:hover{
-color:#0d4497; ;
-background-color: inherit;
+background-color: #eaeaea;
+}
+.active{
+  color: #0d4497 !important;
+  background-color: #eaeaea !important;
 }
 .logo img{
   width: 45%;
