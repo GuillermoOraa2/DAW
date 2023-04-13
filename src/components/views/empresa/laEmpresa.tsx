@@ -9,7 +9,7 @@ const LaEmpresa = () => {
         <div className='container cont-emp' id='main'>
             <div className='container text-center cont-emp'>
               <h4>Filosofía</h4>
-              <p className='parr-1'>{t('descripcionEmpresa')}</p>
+              <p className='parr-1'>Creemos en la adaptación de procesos de producción definidos por otras disciplinas de la ingeniería porque aportan a nuestros desarrollos las tres cualidades por las que se miden los productos del sector informático; fiabilidad, usabilidad y eficiencia.El nombre de la compañía representa nuestra vocación de aplicar el mejor criterio a nuestro trabajo. Sentirnos orgullosos de nuestra labor por la satisfacción que proporciona a quienes utilizan nuestras soluciones es el mayor estímulo.</p>
               <div>
               
               </div>
