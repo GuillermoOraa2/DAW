@@ -19,7 +19,7 @@ class contacto extends React.Component {
                       
                     </div>
                     <div className='col-lg-6 col-sm-12 ps-5 fs-5'>
-                       <form className='text-start'>
+                    <form className='text-start' >
                         {/* <!-- 4 column input --> */}
                         <div className="row mb-4">
                           <div className="col">
