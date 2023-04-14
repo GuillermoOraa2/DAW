@@ -5,7 +5,7 @@ const Caso = ({data}) => {
   const { t } = useTranslation();
   const alt = `logo ${data.nombre}`;
   const logos=(data.logos).map((logo)=><img src={logo} alt={alt} />);
-  const urls=(data.urls).map((url)=><p><strong><a href={url}>{url}</a></strong></p>);
+  const urls=(data.urls).map((url)=><p><strong><a href={url} target="_blank" rel="noreferrer">{url}</a></strong></p>);
   return (
       <div className='grid-container'>
         <div className='item1'>
@@ -26,14 +26,14 @@ const Caso = ({data}) => {
           </div>
           <div className='itemTienda'>
             {data.googlePlay.enlace &&
-              <a href={data.googlePlay.enlace}><img className="alignleft image-668" src={data.googlePlay.imagen} alt={alt} /></a>
+              <a href={data.googlePlay.enlace} target="_blank" rel="noreferrer"><img className="alignleft image-668" src={data.googlePlay.imagen} alt={alt} /></a>
             }
             {data.appleStore.enlace &&
-              <a href={data.appleStore.enlace}><img className="alignleft image-668" src={data.appleStore.imagen} alt={alt} /></a>
+              <a href={data.appleStore.enlace} target="_blank" rel="noreferrer"><img className="alignleft image-668" src={data.appleStore.imagen} alt={alt} /></a>
             }
           </div>
           <div className='itemBoton'>
-            <a className="btn btn-primary alignleft" href={data.urls[0]}>Ir a {data.nombre}</a>
+            <a className="btn btn-primary alignleft" href={data.urls[0]} target="_blank" rel="noreferrer">{t('ir')} {data.nombre}</a>
           </div>
         </div>          
       </div>

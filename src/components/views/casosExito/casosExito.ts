@@ -40,7 +40,7 @@ const datosEntrena={impar:true,logos:[logoEntrenaVirtual],
     appleStore:{imagen:appleStoreImagen,enlace:"https://apps.apple.com/es/app/entrena-virtual/id1582517944?l=en"}}
       
 const datosSavso={impar:false,logos:[logoSavso],
-    nombre:"Savso", urls:["www.savso.es"],texto:"textoSavso", imagen:imagenSavso, 
+    nombre:"Savso", urls:["https://www.savso.es"],texto:"textoSavso", imagen:imagenSavso, 
     googlePlay:{imagen:"",enlace:false},
     appleStore:{imagen:"",enlace:false}}
     
@@ -50,12 +50,12 @@ const datosGaia={impar:true,logos:[logoGaia,logoFUE],
     appleStore:{imagen:"",enlace:false}}
   
 const datosPella={impar:false,logos:[logoPella],
-    nombre:"Pella Athletika", urls:["https://www.pellaapp.com"],texto:"textoPella", imagen:imagenPella, 
+    nombre:"Pella Athletika", urls:["https://pellaathletika.com/"],texto:"textoPella", imagen:imagenPella, 
     googlePlay:{imagen:googlePlayImagen,enlace:"https://play.google.com/store/apps/details?id=com.criterian.pella"},
     appleStore:{imagen:appleStoreImagen,enlace:"https://apps.apple.com/au/app/pella/id1212159923"}}
        
 const datosAxisPharma={impar:true,logos:[logoAxis],
-    nombre:"Axis Pharma", urls:["https://www.survey.axispharma.com"],texto:"textoAxis", imagen:imagenAxis, 
+    nombre:"Axis Pharma", urls:["https://es.axispharma.com/"],texto:"textoAxis", imagen:imagenAxis, 
     googlePlay:{imagen:"",enlace:false},
     appleStore:{imagen:"",enlace:false}}
 
