@@ -1,4 +1,5 @@
 //import { Suspense } from 'react';
+import {useState} from "react";
 import {Routes, Route } from "react-router-dom";
 import './App.css';
 import Header from './components/shared/header/header.tsx';
@@ -10,13 +11,14 @@ import Contacto from './components/views/contacto/contacto.tsx';
 import Exitos from './components/views/casosExito/casosExito.tsx';
 
 function App() {
+  const [idioma, setIdioma]=useState('es');
   return (
     <div className="App">
       {/* <Suspense fallback='loading'> */}
-      <Header />
+      <Header cambiarIdioma={setIdioma}/>
       <Routes>
         <Route index element={<Inicio />}></Route>
-        <Route path="productos-y-servicios" element={<Desarrollo />}></Route>
+        <Route path="productos-y-servicios" element={<Desarrollo idioma={idioma}/>}></Route>
         <Route path="la-empresa" element={<LaEmpresa/>}></Route>
         <Route path="contacto" element={<Contacto/>}></Route>
         <Route path="casos-de-exito" element={<Exitos/>}></Route>

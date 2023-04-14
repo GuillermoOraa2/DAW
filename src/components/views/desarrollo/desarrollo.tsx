@@ -4,11 +4,13 @@ import serv1 from '../../../assets/images/desarrollo/servicios_dirección_proyec
 import serv2 from '../../../assets/images/desarrollo/servicios_diseños_software-350x239.png';
 import serv3 from '../../../assets/images/desarrollo/servicios_desarrollo-350x239.png';
 import serv4 from '../../../assets/images/desarrollo/servicios_otros-350x239.png';
-import serv5 from '../../../assets/images/desarrollo/procesosdetrabajo_criterian.png';
-import serv6 from '../../../assets/images/desarrollo/rad_app_es.png';
+import serv5_es from '../../../assets/images/desarrollo/procesosdetrabajo_es.png';
+import serv5_en from '../../../assets/images/desarrollo/procesosdetrabajo_en.jpg';
+import serv6_es from '../../../assets/images/desarrollo/rad_app_es.png';
+import serv6_en from '../../../assets/images/desarrollo/rad_app_en.png';
 import './desarrollo.css';
 
-const Desarrollo = () => {
+const Desarrollo = ({idioma}) => {
     const { t} = useTranslation();
     return (
         <div>
@@ -102,13 +104,18 @@ const Desarrollo = () => {
                   El proceso de trabajo en <strong>Criterian</strong>  sigue las siguientes fases:
                 </Trans>
                 </p>
-                <img src={serv5} alt="" className='d-block mx-auto w-100 mb-4'/>
+                {(idioma==="es" &&
+                    <img src={serv5_es} alt="" className='d-block mx-auto w-100 mb-4'/>)||<img src={serv5_en} alt="" className='d-block mx-auto w-100 mb-4'/>
+                }
                 <p className='fs-5'>
                   <Trans i18nKey="desarrollo-rapido">
                   Para proyectos que por su naturaleza requieran más celeridad también ofrecemos un sistema de<strong> Desarrollo Rápido de Aplicaciones.</strong>
                   </Trans>
                 </p>
-                <img src={serv6} alt="" className='d-block mx-auto w-100 mb-5 mt-4'/>
+                {(idioma==="es" &&
+                    <img src={serv6_es} alt="" className='d-block mx-auto w-100 mb-5 mt-4'/>)||<img src={serv6_en} alt="" className='d-block mx-auto w-100 mb-5 mt-4'/>
+                }
+                
             </div>
         </div>
       );
