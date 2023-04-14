@@ -9,16 +9,16 @@ const Inicio = () => {
   // const { t } = useTranslation();
   return (
     <div>
-          <div id="carouselinicio" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000"> 
+          <div id="carouselinicio" className="carousel slide carousel-fade" data-bs-ride="carousel"> 
           <div className="carousel-inner">
-            <div className="carousel-item active">
+            <div className="carousel-item active " data-bs-interval="5000" >
               <img src={slide1} className="d-block " alt="..."/>
               <div className="carousel-caption inicio-caption rounded-end">
                   <h1>Dedicados al desarrollo de software</h1>
                   <p>Somos expertos en el desarrollo de software a medida usando diferentes tecnologías y plataformas</p>
                 </div>
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item" data-bs-interval="5000" >
               <img src={slide2} className="d-block " alt="..."/>
               <div className="carousel-caption inicio-caption rounded-end">
                   <h1>Due Diligence  Tecnológico</h1>
@@ -27,7 +27,7 @@ const Inicio = () => {
                   </p>
                 </div>
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item" data-bs-interval="5000" >
               <img src={slide3} className="d-block " alt="..."/>
               <div className="carousel-caption inicio-caption rounded-end-3">
                   <h1>Especializados en desarrollo para el sector fintech</h1>
@@ -37,7 +37,7 @@ const Inicio = () => {
                   </p>
                 </div>
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item" data-bs-interval="5000" >
               <img src={slide4} className="d-block " alt="..."/>
               <div className="carousel-caption inicio-caption rounded-end">
                   <h1>Del Concepto a la realidad</h1>
