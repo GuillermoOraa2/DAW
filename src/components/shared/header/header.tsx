@@ -60,7 +60,7 @@ const Header = () => {
                     </NavLink>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><NavLink className="dropdown-item" to="productos-y-servicios/">{t('desarrollo de software')}</NavLink></li>
-                      <li><NavLink className="dropdown-item" to="due-diligence/">{t('due')}</NavLink></li>
+                      <li><NavLink className="dropdown-item" to="https://due-diligence.criterian.es/">{t('due')}</NavLink></li>
                     </ul>
                   </li>
                   <li className="nav-item">

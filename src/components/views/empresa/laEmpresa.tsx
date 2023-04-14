@@ -28,7 +28,7 @@ const LaEmpresa = () => {
 
                     <div className="text-center">
                       <h5 className="hero-headline dark text-center">Equipo</h5>
-                      <p className="hero-subhead dark text-center">"Reunirse en equipo es el principio.<br/>Mantenerse en equipo es el progreso.<br/>
+                      <p className="hero-subhead dark text-center fw-bold">"Reunirse en equipo es el principio.<br/>Mantenerse en equipo es el progreso.<br/>
                       Trabajar en equipo asegura el éxito"
                       </p>
                     </div>
@@ -38,14 +38,14 @@ const LaEmpresa = () => {
                   <div className="carousel-item emp-item" >
                     <div className="text-center">
                       <h5 className="hero-headline white text-center">Criterian</h5>
-                      <p className="hero-subhead dark text-center">Criterian: Procesos de calidad en la industria del software</p>
+                      <p className="hero-subhead dark text-center fw-bold">Criterian: Procesos de calidad en la industria del software</p>
                     </div>
                   </div>
 
                   <div className="carousel-item emp-item">
                     <div className="text-center ">
                       <h5 className="hero-headline dark text-center">Auditoría Tecnológica</h5>
-                      <p className="hero-subhead dark text-center aud">Hoy en día la tecnología juega un
+                      <p className="hero-subhead dark text-center aud fw-bold">Hoy en día la tecnología juega un
                        rol cada vez más importante para las
                        empresa, invertir en la digitalización,
                        permite a las organizaciones aumentar la competividad 

@@ -5,6 +5,7 @@ import serv3 from '../../../assets/images/desarrollo/servicios_desarrollo-350x23
 import serv4 from '../../../assets/images/desarrollo/servicios_otros-350x239.png';
 import serv5 from '../../../assets/images/desarrollo/procesosdetrabajo_criterian.png';
 import serv6 from '../../../assets/images/desarrollo/rad-1 (1).png';
+import './desarrollo.css';
 class desarrollo extends React.Component {
     render() {
       return (
@@ -83,7 +84,7 @@ class desarrollo extends React.Component {
                 </div>
               </div>
             </div>
-            <div className='container text-start'>
+            <div className='container text-start cont-des'>
                 <h3 className='text-center mt-5 mb-4 fw-bold'>Así Trabajamos</h3>
                 <p className='fs-5'>El elemento diferenciador de <strong>Criterian</strong>  es el énfasis en el análisis previo:
                    El marcar unos objetivos y criterios bien definidos y crear desde un principio 
