@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation,Trans } from 'react-i18next';
 
 import './empresa.css';
 
@@ -8,8 +8,8 @@ const LaEmpresa = () => {
       return (
         <div className='container cont-emp' id='main'>
             <div className='container text-center cont-emp'>
-              <h4>Filosofía</h4>
-              <p className='parr-1'>Creemos en la adaptación de procesos de producción definidos por otras disciplinas de la ingeniería porque aportan a nuestros desarrollos las tres cualidades por las que se miden los productos del sector informático; fiabilidad, usabilidad y eficiencia.El nombre de la compañía representa nuestra vocación de aplicar el mejor criterio a nuestro trabajo. Sentirnos orgullosos de nuestra labor por la satisfacción que proporciona a quienes utilizan nuestras soluciones es el mayor estímulo.</p>
+              <h4>{t('Empresa-descripcion-cabecera')}</h4>
+              <p className='parr-1'>{t('Empresa-descripcion-texto')}</p>
               <div>
               
               </div>
@@ -27,9 +27,11 @@ const LaEmpresa = () => {
                   <div className="carousel-item active emp-item">
 
                     <div className="text-center">
-                      <h5 className="hero-headline dark text-center">Equipo</h5>
-                      <p className="hero-subhead dark text-center fw-bold">"Reunirse en equipo es el principio.<br/>Mantenerse en equipo es el progreso.<br/>
-                      Trabajar en equipo asegura el éxito"
+                      <h5 className="hero-headline dark text-center">{t('Empresa-citas-equipo')}</h5>
+                      <p className="hero-subhead dark text-center fw-bold">
+                        <Trans i18nKey="Empresa-citas-equipo-texto">
+                          "Reunirse en equipo es el principio.<br/>Mantenerse en equipo es el progreso.<br/>Trabajar en equipo asegura el éxito"
+                        </Trans>
                       </p>
                     </div>
 
@@ -38,19 +40,14 @@ const LaEmpresa = () => {
                   <div className="carousel-item emp-item" >
                     <div className="text-center">
                       <h5 className="hero-headline white text-center">Criterian</h5>
-                      <p className="hero-subhead dark text-center fw-bold">Criterian: Procesos de calidad en la industria del software</p>
+                      <p className="hero-subhead dark text-center fw-bold">{t('Empresa-citas-criterian-texto')}</p>
                     </div>
                   </div>
 
                   <div className="carousel-item emp-item">
                     <div className="text-center ">
-                      <h5 className="hero-headline dark text-center">Auditoría Tecnológica</h5>
-                      <p className="hero-subhead dark text-center aud fw-bold">Hoy en día la tecnología juega un
-                       rol cada vez más importante para las
-                       empresa, invertir en la digitalización,
-                       permite a las organizaciones aumentar la competividad 
-                       y la escalabilidad del negocio, además de optimizar y mejorar los procesos internos, 
-                       genera una mejor posición en el mercado y maximiza la capacidad de obtener clientes</p>
+                      <h5 className="hero-headline dark text-center">{t('Empresa-citas-auditoria')}</h5>
+                      <p className="hero-subhead dark text-center aud fw-bold">{t('Empresa-citas-auditoria-texto')}</p>
                     </div>
                   </div> 
 

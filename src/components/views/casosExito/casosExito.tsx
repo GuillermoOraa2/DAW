@@ -1,4 +1,5 @@
 import Caso from './caso'
+import './casosExito.css';
 import {datosArbor,datosRFHE,datosEntrena,datosSavso,datosGaia,datosPella,datosAxisPharma} from './casosExito.ts';
 const CasosExito = () => {
   
