@@ -5,10 +5,13 @@
     "exitos": "Casos de Éxito",
     "desarrollo de software":"Desarrollo de software",
     "due":"Due Diligence Tecnológico",
-
+    "nombre":"Nombre",
     "contacto": "Contacto",
     "direccion": "Calle de Juan de Mariana, 15",
-
+    "email":"Correo Electrónico",
+    "asunto":"Asunto",
+    "message":"Mensaje",
+    "enviar":"enviar",
     "carrusel1-cabecera": "Dedicados al desarrollo de software.",
     "carrusel1-texto": "Somos expertos en el desarrollo de software a medida usando diferentes tecnologías y plataformas",
     "carrusel2-cabecera": "Due Diligence  Tecnológico.",

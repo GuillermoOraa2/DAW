@@ -6,10 +6,13 @@
     "exitos": "Success Stories",
     "desarrollo de software":"Software Development",
     "due":"Technological Due Diligence",
-
+    "nombre":"Name",
     "contacto": "Contact",
     "direccion": "Juan de Mariana, 15",
-
+    "email":"Mail",
+    "asunto":"Subject",
+    "message":"Message",
+    "enviar":"SEND",
     "carrusel1-cabecera": "Dedicated to software development.",
     "carrusel1-texto": "We are experts in custom software development using different technologies and platforms.",
     "carrusel2-cabecera": "Technological Due Diligence.",
