@@ -4,6 +4,7 @@ import './casosExito.css';
 const Caso = ({data}) => {
   const { t } = useTranslation();
   const alt = `logo ${data.nombre}`;
+  const item ='item2';
   const logos=(data.logos).map((logo)=><img src={logo} alt={alt} />);
   const urls=(data.urls).map((url)=><p><strong><a href={url} target="_blank" rel="noreferrer">{url}</a></strong></p>);
   return (
@@ -11,7 +12,8 @@ const Caso = ({data}) => {
         <div className='item1'>
            <img src={data.imagen} alt={alt} />
         </div>
-        <div className='item2 grid-container2'>
+        <div className= {item}>
+        <div className=' grid-container2'>
           <div className='itemLogo'>
             {logos}
           </div>
@@ -35,6 +37,7 @@ const Caso = ({data}) => {
           <div className='itemBoton'>
             <a className="btn btn-primary alignleft" href={data.urls[0]} target="_blank" rel="noreferrer">{t('ir')} {data.nombre}</a>
           </div>
+        </div>
         </div>          
       </div>
 
