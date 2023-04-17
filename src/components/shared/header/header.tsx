@@ -4,12 +4,13 @@ import { useTranslation } from 'react-i18next';
 import logo from './../../../assets/images/header/cropped-cropped-criterian_transparencia.png';
 import './Header.css';
 
-const Header = () => {
+const Header = ({cambiarIdioma}) => {
     const { i18n, t } = useTranslation();
 
     const onChangeLang = (lang_code:string) => {
         //const lang_code = e.target.value
         i18n.changeLanguage(lang_code)
+        cambiarIdioma(lang_code);
     }
 
     return (
