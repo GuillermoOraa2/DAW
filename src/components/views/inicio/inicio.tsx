@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 import { useTranslation,Trans  } from 'react-i18next';
 import './inicio.css';
 import slide1 from "../../../assets/images/inicio/desarrollo-software-slide-new.png";
@@ -11,28 +12,29 @@ const Inicio = () => {
     <div>
           <div id="carouselinicio" className="carousel slide carousel-fade" data-bs-ride="carousel"> 
           <div className="carousel-inner">
-            <div className="carousel-item active " data-bs-interval="5000" >
+            <div className="carousel-item active " data-bs-interval="3000">
               <img src={slide1} className="d-block " alt="..."/>
               <div className="carousel-caption inicio-caption rounded-end">
                   <h1>{t('carrusel1-cabecera')}</h1>
                   <p>{t('carrusel1-texto')}</p>
                 </div>
             </div>
-            <div className="carousel-item" data-bs-interval="5000" >
+            <div className="carousel-item" data-bs-interval="3000">
               <img src={slide2} className="d-block " alt="..."/>
               <div className="carousel-caption inicio-caption rounded-end">
                   <h1>{t('carrusel2-cabecera')}</h1>
                   <p>{t('carrusel2-texto')}</p>
+                  <Link className="carouselLink" to="https://due-diligence.criterian.es/" target="_blank">Más información...</Link>
                 </div>
             </div>
-            <div className="carousel-item" data-bs-interval="5000" >
+            <div className="carousel-item" data-bs-interval="3000">
               <img src={slide3} className="d-block " alt="..."/>
               <div className="carousel-caption inicio-caption rounded-end-3">
                   <h1>{t('carrusel3-cabecera')}</h1>
                   <p>{t('carrusel3-texto')}</p>
                 </div>
             </div>
-            <div className="carousel-item" data-bs-interval="5000" >
+            <div className="carousel-item" data-bs-interval="3000">
               <img src={slide4} className="d-block " alt="..."/>
               <div className="carousel-caption inicio-caption rounded-end">
                   <h1>{t('carrusel4-cabecera')}</h1>
