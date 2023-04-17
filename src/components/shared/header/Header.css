@@ -39,6 +39,7 @@ background-color: #eaeaea;
 .dropdown-item{
   background-color:transparent;
 }
+
 .nav-link.active{
   color: #0d4497 !important;
   font-size:12px !important; 

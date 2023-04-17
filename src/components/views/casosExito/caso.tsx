@@ -5,9 +5,8 @@ const Caso = ({data}) => {
   const { t } = useTranslation();
   const alt = `logo ${data.nombre}`;
   const item ='item2';
-  const logos=(data.logos).map((logo)=><img src={logo} alt={alt} />);
-  const urls=(data.urls).map((url)=><p><strong><a href={url} target="_blank" rel="noreferrer">{url}</a></strong></p>);
-  return (
+  const logos=(data.logos).map((logo)=><img key={logo} src={logo} alt={alt} />);
+  const urls=(data.urls).map((url)=><p key={url}><strong><a href={url} target="_blank" rel="noreferrer">{url}</a></strong></p>);  return (
       <div className='grid-container'>
         <div className='item1'>
            <img src={data.imagen} alt={alt} />
