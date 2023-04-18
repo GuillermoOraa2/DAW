@@ -15,7 +15,7 @@ import logoFUE from '../../../assets/images/casosExito/logo-fue.png';
 import imagenGaia from '../../../assets/images/casosExito/mockup_gaia.png';
 
 import logoPella from '../../../assets/images/casosExito/logo-pella.png';
-import imagenPella from '../../../assets/images/casosExito/mockup_pella.png';
+import imagenPella from '../../../assets/images/casosExito/mockup_pella-2.png';
 
 import logoAxis from '../../../assets/images/casosExito/logo-axispharma.png';
 import imagenAxis from '../../../assets/images/casosExito/mockup_axispharma.png';

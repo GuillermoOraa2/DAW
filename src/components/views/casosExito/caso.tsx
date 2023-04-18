@@ -7,12 +7,12 @@ const Caso = ({data}) => {
   const logos=(data.logos).map((logo)=><img key={logo} src={logo} alt={alt} />);
   const urls=(data.urls).map((url)=><p key={url}><strong><a href={url} target="_blank" rel="noreferrer">{url}</a></strong></p>);  return (
       <div className='grid-container'>
-    {/* <div className={data.impar? "item1":"item2"}> */}
-        <div className='item1'>
+        <div className={data.impar? "item1":"item2"}>
+       {/*  <div className='item1'> */}
            <img src={data.imagen} alt={alt} />
         </div>
-    {/* <div className={data.impar? "item2":"item1"}> */}
-        <div className= 'item2'>
+        <div className={data.impar? "item2":"item1"}>
+        {/* <div className= 'item2'> */}
         <div className=' grid-container2'>
           <div className='itemLogo'>
             {logos}
@@ -26,7 +26,7 @@ const Caso = ({data}) => {
           <div className='itemTexto'>
             <p>{t(`${data.texto}`)}</p>
           </div>
-          <div className='itemTienda'>
+          <div className={data.googlePlay.enlace? "itemTienda":"itemTiendaNone"}>
             {data.googlePlay.enlace &&
               <a href={data.googlePlay.enlace} target="_blank" rel="noreferrer"><img className="alignleft image-668" src={data.googlePlay.imagen} alt={alt} /></a>
             }
