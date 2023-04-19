@@ -24,7 +24,7 @@ const Inicio = () => {
               <div className="carousel-caption inicio-caption rounded-end">
                   <h1>{t('carrusel2-cabecera')}</h1>
                   <p>{t('carrusel2-texto')}</p>
-                  <Link className="carouselLink" to="https://due-diligence.criterian.es/" target="_blank">Más información...</Link>
+                  <Link className="carouselLink" to="https://due-diligence.criterian.es/" target="_blank">{t('carrusel2-enlace')}</Link>
                 </div>
             </div>
             <div className="carousel-item" >

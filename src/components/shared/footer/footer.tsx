@@ -13,44 +13,41 @@ const Footer = () => {
       return (
         <div id="sidebar-footer" className="footer-widgets visibility-all" style={{ display: pathname === '/due-diligence' ? 'none' : 'block' }}>
         <div className="container">
-            <div className="footer-widgets-grid footer-layout-3 align-top">
+            <div className="footer-widgets-grid">
             <div className="sidebar-column">
-                <aside id="text-7" className="widget widget_text">			
+                <aside id="text-7" className="widget">			
                 <div className="textwidget footerMailDirection">
                     <div className="aligncenter"><img decoding="async" src={mapsIcon} alt="" width="32" height="32"/></div>
-                    <p><span id=":5j.co" className="tL8wMe EMoHub" dir="ltr">{t('direccion')}</span><br/>Madrid – <span id=":5v.co" className="tL8wMe EMoHub" dir="ltr">
-                        28028</span></p>
+                    <p><span className="tL8wMe">{t('direccion')}<br/>Madrid<br/></span><span className="tL8wMe">28028</span></p>
                 </div>
                 </aside>			
             </div>
                         
             <div className="sidebar-column">
-                <aside id="text-4" className="widget widget_text">			
+                <aside className="widget widget_text">			
                 <div className="textwidget footerMailDirection">
-                    <div className="aligncenter"><img decoding="async"
-                        src={mailIcon} alt="" width="32" height="32" /></div>
-                    <p>Email:<a href="mailto:info@criterian.es" target="blank" 
-                        rel="noopener"><br/>info@criterian.es </a></p>
+                    <div className="aligncenter"><img decoding="async" src={mailIcon} alt="" width="32" height="32" /></div>
+                    <p>Email:<a href="mailto:info@criterian.es" target="blank" rel="noopener"><br/>info@criterian.es </a></p>
                 </div>
                 </aside>			
             </div>
                         
             <div className="sidebar-column">
-                <aside id="text-5" className="widget widget_text">			
+                <aside className="widget widget_text">			
                 <div className="textwidget footerRedesSociales">
                     <div>
-                    <a href="https://www.facebook.com/criteriansoftware/" target="_blank" rel="noopener" ><img decoding="async" className="alignnone" 
+                    <a href="https://www.facebook.com/criteriansoftware/" target="_blank" rel="noopener" ><img decoding="async" 
                     title="https://www.facebook.com/criteriansoftware/" src={facebookIcon} 
                     alt="" width="32" height="32" /></a> 
                     </div>
                     <div>
                         <a href="https://twitter.com/Criterian_Softw/" target="_blank" rel="noopener">
-                            <img decoding="async" className="alignnone" src={twitterIcon} alt="" width="32" height="32" /> 
+                            <img decoding="async" src={twitterIcon} alt="" width="32" height="32" /> 
                         </a>
                     </div>
                     <div>
                         <a href="https://www.linkedin.com/in/criterian-software-305241135" target="_blank" rel="noopener"> 
-                            <img decoding="async" className="alignnone" src={linkedinIcon} alt="" width="32" height="32" />
+                            <img decoding="async" src={linkedinIcon} alt="" width="32" height="32" />
                         </a>
                     </div>
                 </div>

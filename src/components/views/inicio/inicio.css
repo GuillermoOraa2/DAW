@@ -4,6 +4,9 @@
 #carouselinicio .carousel-inner .carousel-item img{
     height: 60vh;
 }
+.row{
+    --bs-gutter-x: 0rem;
+}
 .inicio-caption{
     text-align: left;
     background-color: rgba(59, 180, 250, 0.5); 
@@ -58,6 +61,38 @@ margin-top: 2vh;
     }
   }
 /*small devices*/
+@media only screen and (max-width: 930px){
+    .inicio-caption{
+        height: 23vh;
+    }
+    .inicio-caption h1{
+        font-size: 30px;
+    } 
+    .inicio-caption p{
+        font-size: 22px;
+    } 
+    .inicio-caption a{
+        font-size: 22px;
+    } 
+}
+
+@media only screen and (max-width: 830px){
+    .inicio-caption{
+        height: 14vh;
+        width:60%;
+    }
+    .inicio-caption h1{
+        font-size: 100%;
+    }
+    .inicio-caption p{
+        font-size: 80%;
+    } 
+    .inicio-caption a{
+        font-size: 80%;
+    } 
+}
+
+
 @media only screen and (max-width: 768px) {
 .inicio-caption p{
     font-size: 85%;
@@ -67,6 +102,7 @@ margin-top: 2vh;
 }
 .inicio-caption{
     max-width: 60%;
+
 }
 .presentacion-inicio p{
     font-size: 100%;
@@ -81,7 +117,55 @@ margin-top: 2vh;
     .inicio-caption p{
         font-size: 60%;
     }
+    .inicio-caption a{
+        font-size: 60%;
+    }
     .presentacion-inicio img{
         margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .inicio-caption{
+        height: 23vh;
+    }
+    .inicio-caption p{
+        font-size: 80%;
+    } 
+}
+
+@media only screen and (max-width: 500px){
+    .inicio-caption{
+        height: 25vh;
+    }
+    .inicio-caption p{
+        font-size: 80%;
+    } 
+}
+
+@media only screen and (max-width: 380px){
+    .inicio-caption{
+        height: 33vh;
+    }   
+}
+
+@media only screen and (max-width: 370px){
+    .inicio-caption{
+        height: 29vh;
+    }   
+}
+
+@media only screen and (max-width: 300px){
+    .inicio-caption{
+        height: 32vh;
+    }
+    .inicio-caption h1{
+        font-size: 100%;
+    }
+    .inicio-caption p{
+        font-size: 70%;
+    }
+    .inicio-caption a{
+        font-size: 70%;
     }
 }

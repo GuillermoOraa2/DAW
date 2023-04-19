@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route index element={<Inicio />}></Route>
         <Route path="productos-y-servicios" element={<Desarrollo idioma={idioma}/>}></Route>
-        <Route path="due-diligence"element={<Due/>}></Route>
+        {/* <Route path="due-diligence"element={<Due/>}></Route> */}
         <Route path="la-empresa" element={<LaEmpresa/>}></Route>
         <Route path="contacto" element={<Contacto/>}></Route>
         <Route path="casos-de-exito" element={<Exitos/>}></Route>
