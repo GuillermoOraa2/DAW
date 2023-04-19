@@ -18,13 +18,15 @@
   	grid-template-columns: 50% 50%; 
     grid-template-rows: 1fr;
     /* height: 500px; */
-    margin-bottom:2%;
-    padding-top:3%;
+    margin-bottom:30px;
+    padding-top:30px;
 }
 
 .item1{
-  grid-column-start: 1;
-  grid-column-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
 
 .item1 img{
@@ -36,11 +38,13 @@
 .item2{
     grid-column-start: 2;
     grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
 .grid-container2{
     display: grid;
     grid-template-columns: 100%;  
-    grid-template-rows: 25% 10% 5% 29% 10% 5%; 
+    grid-template-rows: 25% 10% 5% 150px 10% 5%; 
     grid-row-gap: 2%;
 }
 
@@ -96,9 +100,14 @@
 }
 .itemTienda{
     /* background-color:purple; */
+    padding-top:20px;
+}
+.itemTiendaNone{
+    display:none;
 }
 .itemBoton{
     /* background-color:orange; */
+    padding-top:40px;
 }
 
 .itemBoton a{
@@ -113,8 +122,8 @@
 }
 
 .image-668{
-    width:140px;
-    height:52px;
+    width:140px !important;
+    height:52px !important;
 }
 
 @media (min-width:990px){
@@ -126,6 +135,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 35% 65%;
         height: 800px;  
+        padding-top:2%;
     }
     .item1{
         grid-column: 1 / 2;
@@ -151,6 +161,15 @@
         height:100px;
     }
 
+    .itemTienda{
+        /* background-color:purple; */
+        padding-top:20px;
+    }
+    .itemBoton{
+        /* background-color:orange; */
+        padding-top:40px;
+    }
+
     .itemNombre h3,.itemEnlaces p,.itemTexto p{
         font-size:30px;
     }
@@ -160,7 +179,8 @@
     .grid-container{
         grid-template-columns: 1fr;
         grid-template-rows: 35% 65%;
-        height: 800px;  
+        height: 800px; 
+        padding-top:2%; 
     }
     .item1{
         grid-column: 1 / 2;
@@ -189,12 +209,28 @@
         height:50px;
     }
 
+    .itemTienda{
+        /* background-color:purple; */
+        padding-top:20px;
+    }
+    .itemBoton{
+        /* background-color:orange; */
+        padding-top:40px;
+    }
+
 } 
 
 @media (max-width:400px){
     .grid-container{
-        height: 1000px;  
+        height: 850px; 
+        padding-top:2%; 
     }
+
+    .item1 .item2{
+        height: 425px; 
+        margin-bottom:30px
+    }
+
 
     .grid-container2{
         display: grid;
@@ -207,10 +243,28 @@
         width:90px;
         height:60px;
     }
+
+    .itemTienda{
+        /* background-color:purple; */
+        padding-top:20px;
+    }
+    .itemBoton{
+        /* background-color:orange; */
+        padding-top:40px;
+    }
 }
 
 @media (max-width:300px){
     .grid-container{
-        height: 1200px;  
+        height: 1000px; 
+        padding-top:0%; 
+    }
+    .itemTienda{
+        /* background-color:purple; */
+        padding-top:45px;
+    }
+    .itemBoton{
+        /* background-color:orange; */
+        padding-top:45px;
     }
 }

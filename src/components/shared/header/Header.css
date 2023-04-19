@@ -36,6 +36,7 @@ padding: 0;
 .dropdown-menu li a:hover{
 background-color: #eaeaea;
 }
+<<<<<<< HEAD
 .dropdown-menu li a:active{
   background-color: #eaeaea;
 }
@@ -45,7 +46,20 @@ background-color: #eaeaea;
 .active{
   color: #0d4497 !important;
   font-weight: bold;
+=======
+
+.dropdown-item{
+  background-color:transparent;
+>>>>>>> 86f71c9dec04ada5eb4baacf780c8fc676cbffbb
 }
+
+.nav-link.active{
+  color: #0d4497 !important;
+  font-size:12px !important; 
+  font-weight:bolder !important; 
+  background-color:transparent !important;
+}
+
 .logo img{
   width: 45%;
 }
