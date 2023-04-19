@@ -36,7 +36,6 @@ padding: 0;
 .dropdown-menu li a:hover{
 background-color: #eaeaea;
 }
-<<<<<<< HEAD
 .dropdown-menu li a:active{
   background-color: #eaeaea;
 }
@@ -46,11 +45,9 @@ background-color: #eaeaea;
 .active{
   color: #0d4497 !important;
   font-weight: bold;
-=======
-
+}
 .dropdown-item{
   background-color:transparent;
->>>>>>> 86f71c9dec04ada5eb4baacf780c8fc676cbffbb
 }
 
 .nav-link.active{
@@ -155,6 +152,9 @@ width: 12%;
 .log{
   max-width: 100%;
   margin-bottom: 50px;
+}
+.idiomas img{
+  width: 4%;
 }
 }
 

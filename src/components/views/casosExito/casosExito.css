@@ -125,7 +125,11 @@
     width:140px !important;
     height:52px !important;
 }
-
+@media (max-width:1100px){
+.item2 img{
+    max-width: 100%;
+}
+}
 @media (min-width:990px){
 
 }
@@ -169,9 +173,12 @@
         /* background-color:orange; */
         padding-top:40px;
     }
-
+    
     .itemNombre h3,.itemEnlaces p,.itemTexto p{
         font-size:30px;
+    }
+    .item2 img{
+        width: fit-content !important;
     }
 }
 
@@ -217,6 +224,9 @@
         /* background-color:orange; */
         padding-top:40px;
     }
+    .item2 img{
+        max-width: 100%;
+    }
 
 } 
 
@@ -227,7 +237,7 @@
     }
 
     .item1 .item2{
-        height: 425px; 
+        /* height: 425px;  */
         margin-bottom:30px
     }
 
@@ -252,6 +262,9 @@
         /* background-color:orange; */
         padding-top:40px;
     }
+    .item2 img{
+        max-width: 100%;
+    }
 }
 
 @media (max-width:300px){
@@ -267,4 +280,5 @@
         /* background-color:orange; */
         padding-top:45px;
     }
+   
 }

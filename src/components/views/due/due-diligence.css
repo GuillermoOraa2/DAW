@@ -4,7 +4,7 @@
   
   /* navbar-due Styles*/
   
-  .navbar-due {
+  /* .navbar-due {
     width: 100vw;
     height: 56px !important;
     left: 0px;
@@ -110,10 +110,10 @@
   
   .we-work a {
     color: #54565a;
-  }
+  } */
   
   /* Hero Section Styles*/
-  
+/*   
  
   
   .title-subtitle-button {
@@ -155,17 +155,17 @@
     height: 20px;
     font-weight: 700;
     font-size: 20px;
-    line-height: 18px;
+    line-height: 18px; */
     /* identical to box height */
-    text-align: center;
-    color: #ffffff;
+    /* text-align: center;
+    color: #ffffff; */
     /* Inside auto layout */
-    flex: none;
+    /* flex: none;
     order: 0;
     flex-grow: 0;
-  }
+  } */
   
-  .elipse-superior {
+  /* .elipse-superior {
     top: 90px;
     width: 250px;
     mix-blend-mode: luminosity;
@@ -222,11 +222,11 @@
     height: 35vh;
     width: auto;
     border-radius: 50%;
-  }
+  } */
   
   /* Due Diligence Section Styles */
   
-  .due-diligence-box {
+  /* .due-diligence-box {
     padding: 20px;
   }
   
@@ -265,11 +265,11 @@
   .services-description img {
     width: 25px;
   }
-  
+   */
   
   
   /* Pivots Section Styles */
-  
+/*   
   #pivots {
      background-image: url(../../../assets/images/due/svgexport-2.svg);
     background-repeat: no-repeat;
@@ -325,9 +325,9 @@
     height: 35px;
     width: auto;
   }
-  
+   */
   /* Types Section*/
-  #types {
+  /* #types {
     padding: 20px;
     margin-bottom: 60px;
     height: auto;
@@ -404,25 +404,25 @@
   .type-n2 {
     color: #ffffff;
     font-size: 20px;
-    padding-left: 2rem;
+    padding-left: 2rem; */
     /* background-image: url(../image/Vectorescudo1.svg); */
-    background-position: 0 0;
+    /* background-position: 0 0;
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
     margin-bottom: 20px;
-  }
+  } */
   
-  .type-n3 {
+  /* .type-n3 {
     color: #ffffff;
     font-size: 18px;
-    padding-left: 2rem;
+    padding-left: 2rem; */
     /* background-image: url(../image/Vectorescudo2.svg); */
-    background-position: 0 0;
+    /* background-position: 0 0;
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
   }
-  
-  .types-container ul {
+   */
+  /* .types-container ul {
     list-style-type: none;
   }
   
@@ -432,11 +432,11 @@
     position: relative;
     top: 50px;
     left: 95%;
-  }
+  } */
   
   /* Contact Section Styles */
   
-  #contact {
+  /* #contact {
     width: 100%;
     background: #063f94;
     padding-bottom: 50px;
@@ -510,4 +510,4 @@
     flex-direction: column;
     align-items: center;
     justify-content: end;
-  }
+  } */

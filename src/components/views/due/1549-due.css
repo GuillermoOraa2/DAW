@@ -1,14 +1,17 @@
-@media only screen and (max-width: 1549px) and (min-width: 1303px) {
+/* @media only screen and (max-width: 1549px) and (min-width: 1303px) { */
     /* NavBar Styles*/
   
-    #linkContacto {
+    /* #linkContacto {
       height: 37px;
       position: relative;
       line-height: 25px;
       top: 4px;
+    } */
+/*     
+    .navbar-due{
+      background-color: #eaeaea;
     }
-  
-    .nav-link {
+    .nav-link-due {
       line-height: 25px;
     }
   
@@ -62,10 +65,10 @@
       top: -175px;
       width: 99vw;
     }
-  
+   */
     /* Hero Section Styles*/
   
-    .hero {
+    /* .hero {
       height: 700px;
       background-position: center;
     }
@@ -90,10 +93,10 @@
       padding-left: 10px;
       padding-right: 10px;
     }
-  
+   */
     /* Due Diligence Section Styles */
   
-    .due-diligence-title {
+    /* .due-diligence-title {
       font-size: 40px;
       font-weight: 700;
     }
@@ -127,11 +130,11 @@
     .text-diligence2,
     .text-diligence3 {
       font-size: 20px;
-    }
+    } */
   
     /* Working Section Styles */
   
-    .working-section {
+    /* .working-section {
       margin-bottom: 2px;
     }
   
@@ -156,11 +159,11 @@
   
     .imag_work {
       margin-top: 80px;
-    }
+    } */
   
     /* Pivots Section Styles */
   
-    #pivots {
+    /* #pivots {
       height: 1050px;
     }
   
@@ -218,10 +221,10 @@
       height: 300px;
       top: 25px;
     }
-  
+   */
     /* Types Section*/
   
-    .types-title p {
+    /* .types-title p {
       font-size: 40px;
     }
   
@@ -323,7 +326,7 @@
   
     /* contact Section*/
   
-    .contact-title {
+    /* .contact-title {
       font-size: 40px;
-    }
-  }
+    } */
+  /* }  */

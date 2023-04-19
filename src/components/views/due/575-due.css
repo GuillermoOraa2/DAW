@@ -1,0 +1,519 @@
+/* CSS Breakpoints*/
+/* @media only screen and (max-width: 576px) and (min-width: 475px) { */
+    /* NavBar Styles*/
+/*   
+    .custom-list {
+      width: 20vw;
+    }
+  
+    .navbar-due {
+      position: none;
+    }
+  
+    .navbar-due-collapse {
+      margin-top: 50px;
+    }
+  
+    .navbar-due-logo {
+      margin-left: 20px !important;
+      height: 20px;
+      margin-bottom: 0px;
+      position: absolute; 
+      top: 17px;
+      left: 0px;
+    }
+  
+    .navbar-due-toggler {    
+      height: 40px;   
+      position: absolute;    
+      margin-top: auto;
+      margin-bottom: auto;
+      right: 16.67%;
+    } 
+    
+    .nav-item-due .contact-button-container {
+      margin-top: 0.5vh;
+    }
+  
+    #nav1 {
+      width: 100% !important;
+      padding-right: 0px;
+      height: 40px;
+      position: fixed;
+    }
+  
+    .nav-div {
+      height: 45px;
+    }
+    
+    a.active {
+      font-size: 16px;
+    }
+   */
+    /* Hero Section Styles*/
+  
+    /* .hero {
+      height: 320px;
+    }
+  
+    .title-subtitle-button {
+      top: 9vh;
+      width: 60vw;
+      left: 7vw;
+    }
+  
+    .my-5 {
+      margin: 0% !important;
+    }
+  
+    .header-title {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  
+    .header-subtitle {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 600;
+    }
+  
+    .button-contact-text {
+      font-size: 10px;
+      width: 48px;
+      margin-top: -5px;
+      margin-left: 15px;
+    }
+  
+    .button-contact {
+      width: 130px;
+      height: 25px;
+      margin-top: 5px !important;
+      border-radius: 8px;
+      border: 2.5px solid #ffffff !important;
+    }
+  
+    .elipse-superior, .elipse-lateral {
+      display: none !important;
+    }
+  
+    #technology .container,
+    #working .container {
+      max-width: 96vw;
+      margin-left: 2vw !important;
+      margin-right: 2vw !important;
+    }
+  
+    .elipse-gris {
+      top: 134px;
+      width: 170px;
+      height: 170px;
+      z-index: 800;
+      right: 5px;
+    }
+  
+    .elipse-blanca {
+      top: 145px;
+      width: 150px;
+      height: 150px;
+      right: 15px;
+      z-index: 800;
+    }
+  
+    .imag_principal img {
+      height: 135px;
+      width: 140px;
+      right: 20px;
+      z-index: 800;
+      top: 151px;
+    }
+  
+    .icon-custom-left {
+      width: 5vw;
+      margin-right: 2vw;
+    }
+  
+    .content-custom-right {
+      width: 75vw;
+    }
+   */
+    /* Due Diligence Section Styles */
+  
+    /* .due-diligence-title {
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: 700;
+      margin-left: 25px;
+    }
+  
+    .diploma-img {
+      width: 336px !important;
+      margin-left: 20px;
+    }
+  
+    .check {
+      margin-left: 25px;
+    }
+  
+    .services-description {
+      padding-left: 0px;
+      margin-left: 20px;
+    }
+  
+    .services-description p {
+      font-size: 16px;
+      margin-left: 25px;
+    }
+  
+    .due-diligence-text p {
+      font-size: 14px;
+      margin-left: 28px;
+      line-height: 20px;
+    }
+  
+    .text-diligence {
+      margin-bottom: 20px;
+      font-size: 24px;
+      margin-top: 20px;
+    }
+  
+    /* Working Section Styles */
+  
+    /* .we-structure {
+      font-size: 18px;
+    } */
+  
+    /* .objetives-gap {
+      font-size: 18px;
+    }
+  
+    .follow-up {
+      font-size: 18px;
+    }
+  
+    .title-work {
+      padding-top: 5vh;
+      font-size: 36px;
+      line-height: 40px;
+    }
+  
+    .width-0 {
+      width: 0px !important;
+      padding: 0px !important;
+      margin: 0px !important;
+    }
+  
+    .imag_work {
+      height: 100%;
+      justify-content: center;
+    }
+  
+    .imag_work img {
+      width: 100%;
+    }
+  
+    .number-img {
+      height: 50px;
+    }
+   */
+    /* Pivots Section Styles */
+  
+    /* #pivots {
+      height: auto;
+      background-color: #47a8d3;
+      width: 100vw;
+    }
+  
+    .pivots-title p {
+      font-size: 32px;
+    }
+  
+    .pivots-boxes-1 li {
+      line-height: 19px;
+      font-size: 15px;
+      color: #ffffff;
+    }
+  
+    #vector1n,
+    #vector2n,
+    #vector3n,
+    #vector4n,
+    #vector5n,
+    #vector1b,
+    #vector2b,
+    #vector3b,
+    #vector4b,
+    #vector5b {
+      margin-left: 30px;
+    }
+  
+    #vector1n,
+    #vector2n,
+    #vector3n,
+    #vector4n,
+    #vector5n {
+      display: none;
+    }
+  
+    #vector1b,
+    #vector2b,
+    #vector3b,
+    #vector4b,
+    #vector5b {
+      display: inline-block !important;
+      margin-bottom: 10px;
+    }
+  
+    .pivot-tile1 {
+      font-size: 20px !important;
+      line-height: 19px;
+    }
+   */
+    /* Types Section*/
+  
+    /* .start {
+      width: 40px;
+      top: 59px;
+      left: 88%;
+    }
+  
+    .types-title {
+      line-height: 30px;
+    }
+  
+    .types-title p {
+      font-size: 32px !important;
+    }
+  
+    .types-title b{
+      line-height: 32px;
+      font-weight: 700;
+    }
+  
+    #types {
+      padding: 0%;
+      margin-bottom: 5vh;
+    }  
+  
+    .n4 {
+      font-size: 14px; */
+      /* background-image: url(../image/Vectorescudo1.svg); */
+      /* background-position: 0 0;
+      background-size: 1rem 1rem;
+      background-repeat: no-repeat;
+      padding-left: 1.4rem;
+      line-height: 18px;
+      margin-left: 20px;
+    }
+  
+    .types-container {
+      margin: 0 0;
+      max-width: 100%;
+      width: 100%;
+    }
+  
+    .clip-1 {
+      position: relative;
+      top: 35vh;
+      left: 30vw;
+      width: 15vw;
+    }
+  
+    .clip-2 {
+      position: relative;
+      top: 73vh;
+      left: 38vw;
+      width: 15vw;
+    }
+  
+    .due-diligence-esencial {
+      width: 230px;
+      height: 230px;
+    }
+  
+    .due-diligence-esencial p {
+      margin-top: -30px;
+    }
+  
+    .clip-1,
+    .clip-2 {
+      top: 120px;
+      left: 100px;
+      width: 13vw;
+    }
+  
+    .entregable {
+      width: 330px;
+      height: 330px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .entregable p {
+      font-size: 18px;
+      margin-bottom: 0.5rem !important;
+      margin-left: 35px;
+    }
+  
+    .entregable ul {
+      line-height: 20px;
+      margin-left: 10px;
+    }
+  
+    .entregable li {
+      line-height: 17px;
+      font-size: 14px;
+    }
+  
+    .due-diligence-medida-list {
+      width: 230px;
+      height: 230px;
+    }
+  
+    .due-diligence-medida-list p {
+      margin-top: -30px;
+    }
+  
+    .additional-services {
+      width: 330px;
+      height: 330px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .additional-services p {
+      font-size: 18px;
+      margin-bottom: 0.5rem !important;
+      margin-left: 35px;
+    }
+  
+    .additional-services li {
+      line-height: 17px;
+      font-size: 14px;
+    }
+  
+    .column-types1 {
+      width: 400px;
+      margin: auto;
+      position: relative;
+      top: 20px;
+    }
+  
+    .nav-link {
+      height: 24px;
+      font-size: small;
+    }
+  
+    .contact a {
+      font-size: small;
+      line-height: 20px;
+      border: 0px solid #083a8a;
+    }
+  
+    .contact a:hover{
+      font-size: small;
+      line-height: 20px;    
+      border: 0px solid #083a8a; 
+    }
+  
+    .column-types2 {
+      width: 400px;
+      margin: auto;
+    }
+  
+    .color-types {
+      width: 350px;
+      height: 75px;
+      margin-left: 10px;
+      margin-bottom: 35px;
+      align-content: center;
+      margin-top: 40px;
+    }
+  
+    .color-types p {
+      font-size: 25px;
+      padding: 15px;
+    }
+  
+    .border-types {
+      height: auto;
+      width: auto;
+    }
+  
+    .border-types p {
+      font-size: 24px;
+    }
+  
+    .type-n1 {
+      color: #ffffff;
+      font-size: 24px;
+      padding-left: 1rem;
+    }
+  
+    .type-n2 {
+      font-size: 16px;   
+      background-size: 1.2rem 1.2rem;    
+      padding-left: 1.4rem;
+      line-height: 18px;
+      margin-left: 20px;
+    }
+  
+    .type-n3 {
+      font-size: 14px;
+      line-height: 20px;
+      padding-left: 1rem; */
+      /* background-image: url(../image/Vectorescudo2.svg); */
+      /* background-position: 0 0;
+      background-size: 0.8rem 0.8rem;
+      background-repeat: no-repeat;
+      margin-bottom: 0px !important;
+      height: 25px;
+      margin-left: 30px;
+    } */
+  
+    /* Contact Section Styles */
+  
+    /* .contact-title {
+      font-size: 36px;
+      line-height: 40px;
+      padding-top: 3vh;
+    }
+  
+    #contact form {
+      padding-left: 0vw;
+      margin-top: 80px;
+    }
+  
+    #contact button {
+      height: 40px;
+      width: 150px;
+      border: #ffffff 2px solid;
+      border-radius: 8px;
+      margin-right: 90px;
+    }
+  
+    #contact form legend {
+      height: 36px;
+    }
+  
+    #contact input {
+      height: 40px;
+      color: #ffffff;
+    }
+  
+    #contact textarea {
+      height: 140px;
+      color: #ffffff;
+    }
+  
+    .button-text {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  
+    #contact {
+      height: auto;
+      padding: 0% 0% 2vh;
+    }
+  } */
