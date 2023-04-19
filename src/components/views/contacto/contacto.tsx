@@ -1,7 +1,20 @@
 import { useTranslation } from 'react-i18next';
 import './contacto.css'
+import React, { useEffect } from 'react';
+
+// import './contacto.js'
 const Contacto =()=>{
       const { t } = useTranslation();
+      // // Aquí se agrega MyComponent
+      // useEffect(() => {
+      //   const script = document.createElement('script');
+      //   script.src = './contacto.js';
+      //   script.async = true;
+      //   document.body.appendChild(script);
+      //   return () => {
+      //     document.body.removeChild(script);
+      //   }
+      // }, []);
       return (
         <div>
             <div className='container mb-5'>
@@ -10,22 +23,21 @@ const Contacto =()=>{
                     <div className='col-lg-6 col-sm-12 text-start ps-5 fs-4'>
                     <p>{t('direccion')}</p>
                     <p>28045 Madrid</p>
-                    <p className='text-primary'>info@criterian.es</p>
+                    <p className='text-primary maill'><a href="mailto:info@criterian.es">info@criterian.es</a></p>
                     <iframe width="95%" height="500"  margin-height="0" margin-width="0" className='mb-5'
 
                     src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=C.%20de%20Juan%20de%20Mariana,%2015+(talent%20garden)&amp;t=&amp;z=14&amp;ie=UTF8&amp;
                     iwloc=B&amp;output=embed">
                     </iframe>
-                      
                     </div>
                     <div className='col-lg-6 col-sm-12 ps-5 fs-5'>
-                    <form className='text-start' >
+                    <form className='text-start' id='contact-form'>
                         {/* <!-- 4 column input --> */}
                         <div className="row mb-4">
                           <div className="col">
                             <div className="form-outline">
                               <label className="form-label fw-bold is-required" htmlFor="form-name">{t('nombre')}</label>
-                              <input type="text" id="form-name" className="form-control w-50 rounded-0" />
+                              <input type="text" id="name" name='name' className="form-control w-50 rounded-0" required/>
                               
                             </div>
                           </div>
@@ -34,25 +46,34 @@ const Contacto =()=>{
                         {/* <!-- Correo input --> */}
                         <div className="form-outline mb-4">
                         <label className="form-label fw-bold is-required" htmlFor="form-email">{t('email')}</label>
-                        <input type="email" id="form-email" className="form-control w-50 rounded-0" />
+                        <input type="email" id="email" name='email' className="form-control w-50 rounded-0" required/>
                         </div>
 
                         {/* <!-- Asunto input --> */}
                         <div className="form-outline mb-4">
                         <label className="form-label fw-bold" htmlFor="form-subject">{t('asunto')}</label>
-                          <input type="text" id="form-subject" className="form-control w-50 rounded-0" />
+                          <input type="text" id="form-subject" name='form-subject' className="form-control w-50 rounded-0" />
                         
                         </div>
 
                         {/* <!-- Message input --> */}
                         <div className="form-outline mb-4">
                         <label className="form-label fw-bold" htmlFor="form-mensaje">{t('message')}</label>
-                          <textarea className="form-control h-100 rounded-0  w-75 mensaje-contacto" id="form-mensaje" rows={6}></textarea>
+                          <textarea className="form-control h-100 rounded-0  w-75 mensaje-contacto" name='message' id="message" rows={6}></textarea>
                         </div>
 
                         {/* <!-- Submit button --> */}
-                        <button type="submit" className="btn enviar btn-block mb-4 fs-5 rounded-0 border">{t('enviar')}</button>
+                        <button type="submit" className="btn enviar btn-block mb-4 fs-5 rounded-0 border" value="enviar">{t('enviar')}</button>
                       </form>
+                    </div>
+                    <div id="alert-success" className="alert alert-success">
+                      <strong>Exito!</strong> El formulario se ha enviado correctamente.
+                      <div><span className='success-x' >X</span></div>
+                    </div>
+
+                    <div id="alert-error" className="alert alert-danger">
+                      <strong>Error!</strong> Ha ocurrido un error al enviar el formulario.
+                      <div><span className='error-x' >X</span></div>
                     </div>
                 </div>
             </div>  

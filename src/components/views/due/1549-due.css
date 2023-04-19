@@ -1,0 +1,329 @@
+@media only screen and (max-width: 1549px) and (min-width: 1303px) {
+    /* NavBar Styles*/
+  
+    #linkContacto {
+      height: 37px;
+      position: relative;
+      line-height: 25px;
+      top: 4px;
+    }
+  
+    .nav-link {
+      line-height: 25px;
+    }
+  
+    .elipse-superior {
+      top: 120px;
+      height: 340px;
+      width: 340px;
+    }
+  
+    .elipse-lateral {
+      top: 220px;
+      height: 340px;
+      width: 340px;
+      right: 280px;
+    }
+  
+    .elipse-gris {
+      top: 230px;
+      width: 410px;
+      height: 410px;
+      z-index: 800;
+      right: 80px;
+    }
+  
+    .elipse-blanca {
+      top: 242px;
+      width: 385px;
+      height: 385px;
+      right: 92px;
+      z-index: 800;
+    }
+  
+    .imag_principal img {
+      height: 355px;
+      width: 365px;
+      right: 102px;
+      z-index: 800;
+      top: 256px;
+    }
+  
+    .custom-list {
+      width: calc(87% - 732px);
+    }
+  
+    .contact a {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  
+    .main-img {
+      top: -175px;
+      width: 99vw;
+    }
+  
+    /* Hero Section Styles*/
+  
+    .hero {
+      height: 700px;
+      background-position: center;
+    }
+  
+    .title-subtitle-button {
+      top: 14vh;
+    }
+  
+    .header-subtitle {
+      font-size: 24px;
+    }
+  
+    .button-contact {
+      width: 170px;
+    }
+  
+    .button-contact-text {
+      line-height: 20px;
+    }
+  
+    .button-contact img {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    /* Due Diligence Section Styles */
+  
+    .due-diligence-title {
+      font-size: 40px;
+      font-weight: 700;
+    }
+  
+    .due-diligence-text p {
+      font-size: 24px;
+    }
+  
+    .due-diligence-text{
+      font-size: 20px;
+    }
+  
+    .imag-services img {
+      width: 90%;
+    }
+  
+    .service-question {
+      font-size: 32px;
+    }
+  
+    .services-description img {
+      width: 40px;
+      margin-top: 15px;
+    }
+  
+    .services-description p {
+      font-size: 20px;
+    }
+  
+    .text-diligence1,
+    .text-diligence2,
+    .text-diligence3 {
+      font-size: 20px;
+    }
+  
+    /* Working Section Styles */
+  
+    .working-section {
+      margin-bottom: 2px;
+    }
+  
+    .title-work {
+      padding-top: 5vh;
+      padding-bottom: 3vh;
+      font-weight: 900;
+      font-size: 40px;
+    }
+  
+    .we-structure {
+      font-size: 22px;
+    }
+  
+    .objetives-gap {
+      font-size: 22px;
+    }
+  
+    .follow-up {
+      font-size: 22px;
+    }
+  
+    .imag_work {
+      margin-top: 80px;
+    }
+  
+    /* Pivots Section Styles */
+  
+    #pivots {
+      height: 1050px;
+    }
+  
+    .pivots-title {
+      margin-bottom: 40px;
+    }
+  
+    .pivots-title p {
+      top: -20px;
+    }
+  
+    .pivot-ul,
+    .pivot-ul1 {
+      height: 380px;
+    }
+  
+    .pivots-boxes-1 p {
+      margin-top: 1vw;
+    }
+  
+    .pivots-boxes-1 li {
+      font-size: 20px;
+      margin-left: 1vw;
+      margin-right: 2vw;
+    }
+  
+    .pivots-boxes-2 p {
+      margin-top: 1vw;
+      font-size: 30px;
+    }
+  
+    .pivots-boxes-2 li {
+      font-size: 24px;
+      margin-left: 1vw;
+      margin-right: 2vw;
+    }
+  
+    .pivots-boxes-2 .ul-container {
+      margin-left: 20px;
+    }
+  
+    .ul-container {
+      height: 410px;
+    }
+  
+    .pv1,
+    .pv2,
+    .pv3 {
+      height: 375px;
+      top: 25px;
+    }
+  
+    .pv4,
+    .pv5 {
+      height: 300px;
+      top: 25px;
+    }
+  
+    /* Types Section*/
+  
+    .types-title p {
+      font-size: 40px;
+    }
+  
+    .color-types p{
+      font-size: 36px;
+    }
+  
+    .border-types p{
+      font-size: 32px;
+    }
+  
+    .type-n1 {
+      font-size: 32px;
+    }
+  
+    .type-n2 {
+      font-size: 24px;
+    }
+  
+    .type-n3 {
+      font-size: 20px;
+    }
+  
+    .due-diligence-esencial {
+      width: 400px;
+      height: 350px;
+    }
+  
+    .due-diligence-esencial p {
+      margin-top: -30px;
+    }
+  
+    .clip-1,
+    .clip-2 {
+      top: 180px;
+      left: 275px;
+      width: 15vw;
+    }
+  
+    .due-diligence-esencial p {
+      font-size: 34px;
+      font-weight: bold;
+    }
+  
+    .due-diligence-esencial li {
+      font-size: 35px;
+    }
+  
+    .entregable {
+      width: 500px;
+      height: 500px;
+      margin-bottom: 15px;
+      margin-left: 15px;
+    }
+  
+    .entregable p {
+      font-size: 30px;
+      margin-left: 60px;
+      line-height: 10px;
+    }
+  
+    .entregable li {
+      font-size: 20px;
+      margin-left: 5px;
+    }
+  
+    .due-diligence-medida-list {
+      width: 400px;
+      height: 350px;
+    }
+  
+    .due-diligence-medida-list p {
+      font-size: 35px;
+      font-weight: bold;
+      margin-top: -30px;
+    }
+  
+    .due-diligence-medida-list li {
+      font-size: 35px;
+    }
+  
+    .additional-services {
+      width: 500px;
+      height: 500px;
+      margin-bottom: 15px;
+      margin-left: 15px;
+    }
+  
+    .additional-services p {
+      font-size: 30px;
+      margin-left: 60px;
+      line-height: 10px;
+    }
+  
+    .additional-services li {
+      font-size: 20px;
+      margin-left: 5px;
+    }
+  
+    /* contact Section*/
+  
+    .contact-title {
+      font-size: 40px;
+    }
+  }

@@ -29,15 +29,22 @@ height: 30px;
   display: block;
   margin-top: 0; /* remove the gap so it doesn't close */
 }
+
 .dropdown-menu{
 padding: 0;
 }
 .dropdown-menu li a:hover{
 background-color: #eaeaea;
 }
+.dropdown-menu li a:active{
+  background-color: #eaeaea;
+}
+.dropdown-menu li  .active{
+  background-color: #eaeaea;
+}
 .active{
   color: #0d4497 !important;
-  background-color: #eaeaea !important;
+  font-weight: bold;
 }
 .logo img{
   width: 45%;
@@ -105,8 +112,10 @@ overflow: auto;
 
 }
 .x{
+  width: 20%;
+  padding-top: 1.2vh;
   display: block;
-  max-width: 10px;
+  float: right;
 }
 #logo-index img{
 width: 65%;
@@ -123,10 +132,18 @@ text-decoration: none;
 font-weight: 600;
 font-weight: 25;
 }
+#contacto.nav-link.active{
+font-weight: 900 !important;
+}
 .idiomas img{
 width: 12%;
 }
+.log{
+  max-width: 100%;
+  margin-bottom: 50px;
 }
+}
+
 /*large devices*/
 @media only screen and (min-width: 1440px) {
   html, body {

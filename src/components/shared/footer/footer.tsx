@@ -4,13 +4,14 @@ import mailIcon from '../../../assets/images/footer/Mail-icon.png';
 import facebookIcon from '../../../assets/images/footer/facebook-icon-1.png';
 import twitterIcon from '../../../assets/images/footer/twitter-icon.png';
 import linkedinIcon from '../../../assets/images/footer/linkedin-icon.png';
+import { useLocation } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
     const { t } = useTranslation();
-
+    const { pathname } = useLocation();
       return (
-        <div id="sidebar-footer" className="footer-widgets visibility-all">
+        <div id="sidebar-footer" className="footer-widgets visibility-all" style={{ display: pathname === '/due-diligence' ? 'none' : 'block' }}>
         <div className="container">
             <div className="footer-widgets-grid footer-layout-3 align-top">
             <div className="sidebar-column">

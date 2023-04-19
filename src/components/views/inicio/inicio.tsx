@@ -9,30 +9,30 @@ const Inicio = () => {
   const { t} = useTranslation();
   return (
     <div>
-          <div id="carouselinicio" className="carousel slide carousel-fade" data-bs-ride="carousel"> 
-          <div className="carousel-inner">
-            <div className="carousel-item active " data-bs-interval="5000" >
+          <div id="carouselinicio" className="carousel slide carousel-fade"  data-bs-ride="carousel"> 
+          <div className="carousel-inner" data-bs-ride="carousel">
+            <div className="carousel-item active ">
               <img src={slide1} className="d-block " alt="..."/>
               <div className="carousel-caption inicio-caption rounded-end">
                   <h1>{t('carrusel1-cabecera')}</h1>
                   <p>{t('carrusel1-texto')}</p>
                 </div>
             </div>
-            <div className="carousel-item" data-bs-interval="5000" >
+            <div className="carousel-item" >
               <img src={slide2} className="d-block " alt="..."/>
               <div className="carousel-caption inicio-caption rounded-end">
                   <h1>{t('carrusel2-cabecera')}</h1>
                   <p>{t('carrusel2-texto')}</p>
                 </div>
             </div>
-            <div className="carousel-item" data-bs-interval="5000" >
+            <div className="carousel-item" >
               <img src={slide3} className="d-block " alt="..."/>
               <div className="carousel-caption inicio-caption rounded-end-3">
                   <h1>{t('carrusel3-cabecera')}</h1>
                   <p>{t('carrusel3-texto')}</p>
                 </div>
             </div>
-            <div className="carousel-item" data-bs-interval="5000" >
+            <div className="carousel-item" >
               <img src={slide4} className="d-block " alt="..."/>
               <div className="carousel-caption inicio-caption rounded-end">
                   <h1>{t('carrusel4-cabecera')}</h1>
@@ -80,6 +80,7 @@ const Inicio = () => {
       </div>
     </div>
     </div>
+    
     </div>
   );
 }        

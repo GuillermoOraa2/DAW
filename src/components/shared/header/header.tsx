@@ -1,4 +1,5 @@
 import {NavLink} from "react-router-dom";
+import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 import logo from './../../../assets/images/header/cropped-cropped-criterian_transparencia.png';
@@ -12,11 +13,13 @@ const Header = ({cambiarIdioma}) => {
         i18n.changeLanguage(lang_code)
         cambiarIdioma(lang_code);
     }
+    const { pathname } = useLocation();
 
     return (
-        <header className="sticky-top">
+      
+        <header className="sticky-top" style={{ display: pathname === '/due-diligence' ? 'none' : 'block' }}>
             
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg ">
             <div className="container-fluid">
                 <div className="logo navbar-brand">
                 <a href="/" title="Criterian"><img src={logo} alt="inicio"/></a>
@@ -26,9 +29,12 @@ const Header = ({cambiarIdioma}) => {
               </button>
               <div className="collapse navbar-collapse " id="navbarNavDropdown" >
                 <ul className="navbar-nav" >
-                <li className="nav-item">
-                <a href="/" title="Criterian" id="logo-index"><img src={logo} alt="inicio"/></a><span className="x">X</span>
+                <li className="nav-item log">
+                <button className="navbar-toggler shadow-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                              <a href="/" title="Criterian" id="logo-index"><img src={logo} alt="inicio"/></a><span className="x"><svg width="25" height="25"  fill="blue" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41L12.59 0Z"></path></svg></span>
+              </button>
                 </li>
+                
                   <li className="nav-item">
                     <NavLink className="nav-link " aria-current="page" to="/">{t('inicio')}</NavLink>
                   </li>
@@ -38,7 +44,7 @@ const Header = ({cambiarIdioma}) => {
                     </NavLink>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><NavLink className="dropdown-item" to="productos-y-servicios/">{t('desarrollo de software')}</NavLink></li>
-                      <li><NavLink className="dropdown-item" to="https://due-diligence.criterian.es/" target="_blank">{t('due')}</NavLink></li>
+                      <li><NavLink className="dropdown-item" to="due-diligence" target="_blank">{t('due')}</NavLink></li>
                     </ul>
                   </li>
                   <li className="nav-item">

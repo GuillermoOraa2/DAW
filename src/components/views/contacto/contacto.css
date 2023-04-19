@@ -15,3 +15,18 @@
     color: red;
     font-weight: bold;
   }
+.maill a{
+    text-decoration: none;
+}
+#alert-success{
+    display: none; position: fixed; width: 90%; top: 80px; left: 5%; height: 65px;
+}
+.success-x{
+    position: relative; top: -25px; left: 97%; padding: 5px 20px; cursor: pointer;
+}
+#alert-error{
+    display: none; position: fixed; width: 90%; top: 80px; left: 5%; height: 65px;
+}
+.error-x{
+    position: relative; top: -25px; left: 97%; padding: 5px 20px; cursor: pointer;
+}
