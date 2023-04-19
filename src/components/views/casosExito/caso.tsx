@@ -7,11 +7,12 @@ const Caso = ({data}) => {
   const logos=(data.logos).map((logo)=><img key={logo} src={logo} alt={alt} />);
   const urls=(data.urls).map((url)=><p key={url}><strong><a href={url} target="_blank" rel="noreferrer">{url}</a></strong></p>);  return (
       <div className='grid-container'>
-        <div className={data.impar? "item1":"item2"}>
+        <div className={data.impar? "item1":"item2" } >
+          {/*Referring to individual ids for each component of the app*/}
        {/*  <div className='item1'> */}
-           <img src={data.imagen} alt={alt} />
+           <img src={data.imagen} alt={alt} id={data.texto}/>
         </div>
-        <div className={data.impar? "item2":"item1"}>
+        <div className={data.impar? "item2":"item1"} >
         {/* <div className= 'item2'> */}
         <div className=' grid-container2'>
           <div className='itemLogo'>
