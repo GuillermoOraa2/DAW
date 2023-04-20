@@ -2,19 +2,18 @@ import { useTranslation } from 'react-i18next';
 import './contacto.css'
 import React, { useEffect } from 'react';
 
-// import './contacto.js'
+import './contacto.js'
 const Contacto =()=>{
       const { t } = useTranslation();
-      // // Aquí se agrega MyComponent
-      // useEffect(() => {
-      //   const script = document.createElement('script');
-      //   script.src = './contacto.js';
-      //   script.async = true;
-      //   document.body.appendChild(script);
-      //   return () => {
-      //     document.body.removeChild(script);
-      //   }
-      // }, []);
+      useEffect(() => {
+          const script = document.createElement('script');
+          script.src = './contacto.js';
+          script.async = true;
+          document.body.appendChild(script);
+          return () => {
+            document.body.removeChild(script);
+          }
+         }, []);
       return (
         <div>
             <div className='container mb-5'>
