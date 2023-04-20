@@ -105,14 +105,23 @@
 }
 
 @media only screen and (max-width: 550px) {
+    .emp-item h5{
+        font-size: 3.5vw;
+    }
     .emp-item p{
         font-size: 3.2vw;
     }
 }
 
 @media only screen and (max-width: 450px) {
+    .cab-1{
+        font-size: 5vw;
+    }
     .parr-1{
         font-size: 4vw;
+    }
+    .emp-item h5{
+        font-size: 3.7vw;
     }
     .emp-item p{
         font-size: 3.5vw;
