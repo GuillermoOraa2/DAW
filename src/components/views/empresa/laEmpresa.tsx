@@ -8,7 +8,7 @@ const LaEmpresa = () => {
       return (
         <div className='container cont-emp' id='main'>
             <div className='container text-center cont-emp'>
-              <h4>{t('Empresa-descripcion-cabecera')}</h4>
+              <h4 className='cab-1'>{t('Empresa-descripcion-cabecera')}</h4>
               <p className='parr-1'>{t('Empresa-descripcion-texto')}</p>
               <div>
               
