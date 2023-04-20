@@ -118,6 +118,9 @@
     max-width: 100%;
 }
 }
+@media (min-width:990px){
+
+}
 
 @media (min-width:576px) and (max-width:990px){
     .grid-container{
@@ -125,18 +128,6 @@
         grid-template-rows: 53% 47%;
         height: 950px;  
         padding-bottom:100px;
-    }
-    .grid-container:nth-child(n+2){
-        margin-top: 15vw;
-    }
-    .itemNombre{
-        margin-bottom: 20vh;
-    }
-    .itemEnlaces p:nth-child(n+2){
-        margin-top: 7vh;
-    }
-    .itemTexto{
-        margin-top: 5vh;
     }
     .item1{
         grid-column-start: 1;
@@ -150,13 +141,7 @@
         grid-row-start: 2;
         grid-row-end: 2;
     }
-    #textoRFHE {
-        padding-top: 40vh;
-        padding-bottom: 10vh;
-    }
-    #textoEntrenaVirtual{
-        padding-top: 10vh;
-    }
+
     .item1 img{
         width: 100%;
         height: 100%;
@@ -239,28 +224,12 @@
         height: 850px; 
         padding-top:2%; 
     }
-    .grid-container2 div{
-        margin-top: 5vh;
-    }
-    #textoRFHE{
-        margin-top:35vh;
-        max-width: 90%;
-    }
+
     .item1 .item2{
         margin-bottom:30px
     }
-    #textoSavso{
-        margin-top:35vh;
-        max-width: 100%;
-    }
-    #textoPella{
-        margin-top:55vh;
-        max-width: 100%;
-    }
-    #textoAxis{
-        margin-top:20vh;
-        max-width: 100%;
-    }
+
+
     .grid-container2{
         display: grid;
         grid-template-columns: 100%;  

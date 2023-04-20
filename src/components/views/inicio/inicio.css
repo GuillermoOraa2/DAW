@@ -62,8 +62,11 @@ margin-top: 2vh;
   }
 /*small devices*/
 @media only screen and (max-width: 930px){
+    #carouselinicio .carousel-inner .carousel-item img{
+        height: 50vh;
+    }
     .inicio-caption{
-        height: 23vh;
+        height: 28vh;
     }
     .inicio-caption h1{
         font-size: 30px;
@@ -76,7 +79,10 @@ margin-top: 2vh;
     } 
 }
 
-@media only screen and (max-width: 830px){
+@media only screen (min-width: 768px) and (max-width: 830px){
+    #carouselinicio .carousel-inner .carousel-item img{
+        height: 30vh;
+    }
     .inicio-caption{
         height: 14vh;
         width:60%;
@@ -93,12 +99,13 @@ margin-top: 2vh;
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
+
 .inicio-caption p{
-    font-size: 85%;
+    font-size: 20px;
 }
 .inicio-caption h1{
-    font-size: 120%;
+    font-size: 24px;
 }
 .inicio-caption{
     max-width: 60%;
@@ -135,6 +142,9 @@ margin-top: 2vh;
 }
 
 @media only screen and (max-width: 500px){
+    #carouselinicio .carousel-inner .carousel-item img{
+        height: 50vh;
+    }
     .inicio-caption{
         height: 25vh;
     }
@@ -142,22 +152,33 @@ margin-top: 2vh;
         font-size: 80%;
     } 
 }
+@media only screen and (max-width: 400px){
+    .inicio-caption{
+        height: 34vh;
+    } 
+}
 
 @media only screen and (max-width: 380px){
+    #carouselinicio .carousel-inner .carousel-item img{
+        height: 60vh;
+    }
     .inicio-caption{
-        height: 33vh;
+        height: 35vh;
     }   
 }
 
 @media only screen and (max-width: 370px){
     .inicio-caption{
-        height: 29vh;
+        height: 35vh;
     }   
 }
 
 @media only screen and (max-width: 300px){
+    #carouselinicio .carousel-inner .carousel-item img{
+        height: 60vh;
+    }
     .inicio-caption{
-        height: 32vh;
+        height: 35vh;
     }
     .inicio-caption h1{
         font-size: 100%;
