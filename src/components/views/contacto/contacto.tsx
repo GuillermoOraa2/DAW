@@ -2,19 +2,35 @@ import { useTranslation } from 'react-i18next';
 import './contacto.css'
 import React, { useEffect } from 'react';
 
-// import './contacto.js'
+// import './contacto.js'-
 const Contacto =()=>{
       const { t } = useTranslation();
       // // Aquí se agrega MyComponent
-      // useEffect(() => {
-      //   const script = document.createElement('script');
-      //   script.src = './contacto.js';
-      //   script.async = true;
-      //   document.body.appendChild(script);
-      //   return () => {
-      //     document.body.removeChild(script);
-      //   }
-      // }, []);
+      useEffect(() => {
+        const form = document.getElementById("contact-form");
+        if (form!=null) {
+          form.addEventListener("submit", function(e) {
+            e.preventDefault();
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "https://jfwz9jkeha.execute-api.eu-west-1.amazonaws.com/default/contact-form-lambda");
+            xhr.addEventListener("load", function() {
+              if (xhr.status === 200) {
+                document.getElementById("alert-success").style.display = "block";
+              } else {
+                document.getElementById("alert-error").style.display = "block";
+              }
+            });
+            xhr.addEventListener("error", function() {
+              document.getElementById("alert-error").style.display = "block";
+            });
+            var formData = new FormData(document.getElementById("contact-form"));
+            var jsonData = JSON.stringify(Object.fromEntries(formData));
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.send(jsonData);
+          });
+        }
+      }, []);
+      
       return (
         <div>
             <div className='container mb-5'>
