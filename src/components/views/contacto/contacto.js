@@ -1,4 +1,4 @@
- document.getElementById("contact-form").addEventListener("submit", function(e) {
+document.getElementById("contact-form").addEventListener("submit", function(e) {
         e.preventDefault();
         var xhr = new XMLHttpRequest();
         xhr.open("POST", "https://jfwz9jkeha.execute-api.eu-west-1.amazonaws.com/default/contact-form-lambda");
@@ -16,4 +16,4 @@
         var jsonData = JSON.stringify(Object.fromEntries(formData));
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send(jsonData);
-      });
+      }); 
