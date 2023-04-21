@@ -1,13 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import './contacto.css'
-import React, {createElement, useEffect } from 'react';
+import { useEffect } from 'react';
 
-//import './contacto.js';
 const Contacto =()=>{
       const { t } = useTranslation();
-/*       useEffect(() => {
+      useEffect(() => {
         const form = document.getElementById("contact-form");
-        if (form!==null) {
+        if (form!=null) {
           form.addEventListener("submit", function(e) {
             e.preventDefault();
             var xhr = new XMLHttpRequest();
@@ -28,18 +27,8 @@ const Contacto =()=>{
             xhr.send(jsonData);
           });
         }
-      });*/
-      useEffect(() => {
-        const script=document.createElement("script");
-        script.src="./contacto.js";
-        script.type="text/jsx";
-        const body=document.getElementsByTagName('body')[0];
-        body.appendChild(script);
-        return () => {
-          document.body.removeChild(script)
-        }
-      },[]);
-
+      }, []);
+      
       return (
         <>
         <div>
